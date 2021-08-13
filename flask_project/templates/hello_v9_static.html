@@ -1,0 +1,17 @@
+<html>
+   <head>
+      <script type = "text/javascript" 
+         src = "{{ url_for('static', filename = 'main.js') }}?=ver14000522" >
+      </script>
+   </head>
+   
+   <body>
+      <input type = "button" onclick = "sayHello()" value = "Say Hello" />
+
+    <p>
+        To build a URL to a specific function, use the url_for() function. <br>
+         It accepts the name of the function as its first argument and any number of keyword arguments,
+          each corresponding to a variable part of the URL rule. Unknown variable parts are appended to the URL as query parameters.
+    </p>
+   </body>
+</html>
