@@ -74,8 +74,19 @@ class Category(db.Model):
 # category.posts query here has a small problem
 # category.posts.order_by(desc('id'))
 
-
+# search = "%{}%".format('p')
+# posts = Post.query.filter(Post.tags.like(search)).all()
 
 
 # ref : https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/
-    
+
+# SQLAlchemy’s “Lazy” Parameter
+# https://medium.com/@ns2586/sqlalchemys-relationship-and-lazy-parameter-4a553257d9ef#:~:text=lazy%20%3D%20'subquery'%20and%20lazy,they%20joins%20the%20tables%20differently.
+
+
+#what is diff between filter and filter_by ?
+# https://stackoverflow.com/questions/2128505/difference-between-filter-and-filter-by-in-sqlalchemy
+
+
+# Object Relational Tutoria
+#   https://docs.sqlalchemy.org/en/14/orm/tutorial.html#common-filter-operators

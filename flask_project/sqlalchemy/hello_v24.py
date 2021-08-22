@@ -16,3 +16,5 @@ class Tag(db.Model):
 
 
 # https://dev.to/chidioguejiofor/eager-loading-vs-lazy-loading-in-sqlalchemy-5209
+# Nested Queries with SQLAlchemy ORM
+#https://blog.miguelgrinberg.com/post/nested-queries-with-sqlalchemy-orm
