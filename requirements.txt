@@ -1,3 +1,4 @@
+alembic==1.6.5
 asgiref==3.4.1
 bleach==4.0.0
 certifi==2021.5.30
@@ -8,20 +9,27 @@ colorama==0.4.4
 cryptography==3.4.7
 Django==3.2.5
 django-crispy-forms==1.12.0
+django-pages @ file:///home/virux/Documents/maktab/django-pages/dist/django-pages-0.1.tar.gz
 docutils==0.17.1
 Flask==2.0.1
+Flask-Migrate==3.1.0
+Flask-SQLAlchemy==2.5.1
+greenlet==1.1.1
 idna==3.2
 importlib-metadata==4.6.3
 itsdangerous==2.0.1
 jeepney==0.7.1
 Jinja2==3.0.1
 keyring==23.0.1
+Mako==1.1.5
 MarkupSafe==2.0.1
 packaging==21.0
 pkginfo==1.7.1
 pycparser==2.20
 Pygments==2.9.0
 pyparsing==2.4.7
+python-dateutil==2.8.2
+python-editor==1.0.4
 pytz==2021.1
 readme-renderer==29.0
 requests==2.26.0
@@ -29,6 +37,7 @@ requests-toolbelt==0.9.1
 rfc3986==1.5.0
 SecretStorage==3.3.1
 six==1.16.0
+SQLAlchemy==1.4.22
 sqlparse==0.4.1
 tqdm==4.62.0
 twine==3.4.2
