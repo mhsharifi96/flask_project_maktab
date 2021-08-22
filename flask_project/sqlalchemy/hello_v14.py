@@ -36,6 +36,7 @@ class User(db.Model):
 
 # db.session.add(admin)
 # db.session.add(guest)
+# OR : db.session.add_all(admin,guest)
 # db.session.commit()
 # User.query.all()
 # User.query.filter_by(username='admin').first()

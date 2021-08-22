@@ -54,8 +54,8 @@ class Category(db.Model):
 #  Post.query.with_parent(py).filter(Post.title != 'Snakes').all()
 
 
-# >>> Category.query.order_by(desc('name')).all()
 # >>> from sqlalchemy import desc,asc
+# >>> Category.query.order_by(desc('name')).all()
 # >>> Category.query.order_by(asc('name')).all()
 # >>> Category.query.order_by(asc('id')).all()
 # >>> Category.query.order_by(desc('id')).all()
@@ -65,17 +65,17 @@ class Category(db.Model):
 
 # Category.query.get(1)  #primary key
 
-#Post.query.filter_by(title='python').first_or_404(body='hi')
+#Post.query.filter_by(title='python').first_or_404()
 
 
-# db.session.delete(me) #delete records on db
+# db.session.delete(py) #delete records on db
 
 # category = Category.query.get(1)
 # category.posts query here has a small problem
 # category.posts.order_by(desc('id'))
 
 # search = "%{}%".format('p')
-# posts = Post.query.filter(Post.tags.like(search)).all()
+# posts = Post.query.filter(Post.title.like(search)).all()
 
 
 # ref : https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/

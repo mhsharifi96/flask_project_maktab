@@ -1,8 +1,8 @@
-"""second migration
+"""add category
 
-Revision ID: 3f926f993ac0
-Revises: c54e3d39444f
-Create Date: 2021-08-22 02:35:29.446421
+Revision ID: 2898197ecc21
+Revises: b33b7ee0fd9a
+Create Date: 2021-08-22 21:01:51.823661
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '3f926f993ac0'
-down_revision = 'c54e3d39444f'
+revision = '2898197ecc21'
+down_revision = 'b33b7ee0fd9a'
 branch_labels = None
 depends_on = None
 
