@@ -5,7 +5,7 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hello, World!</p>"
 
-
+# terminal/cmd  : flask run 
 
 # export FLASK_APP=hello
 # export FLASK_ENV=development #ubuntu
