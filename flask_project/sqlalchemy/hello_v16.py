@@ -75,7 +75,7 @@ class Category(db.Model):
 # category.posts.order_by(desc('id'))
 
 # search = "%{}%".format('p')
-# posts = Post.query.filter(Post.title.like(search)).all()
+posts = Post.query.filter(Post.title.like(search)).all()
 
 
 # ref : https://flask-sqlalchemy.palletsprojects.com/en/2.x/queries/

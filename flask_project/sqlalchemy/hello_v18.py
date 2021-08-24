@@ -18,3 +18,7 @@ class Address(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     email = db.Column(db.String(120), nullable=False)
     person_id = db.Column(db.Integer, db.ForeignKey('person.id'),nullable=False)
+
+
+
+# تمرین کنید ورژن 17 وقبلی را برای این مثال پیاده سازی کنید..
